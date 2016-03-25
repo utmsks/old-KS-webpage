@@ -1,0 +1,171 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #fffff0;
+}
+
+h1 {
+    background-color: #f0f0f0;
+    color: #d05050;
+    padding: 0.5em;
+    font-size: 180%;
+}
+
+h2 {
+    color: #d05050;
+    padding: 0.5em;
+    font-size: 120%;
+}
+
+h3 {
+    padding: 0.5em;
+    font-size: 100%;
+}
+
+span#subtitle {
+    font-size: 80%;
+    margin-left: 1em;
+}
+
+
+div#left {
+    width: 40%;
+    float: left;
+}
+
+div#left img {
+    padding-left: 1%;
+    width: 98%;
+}
+
+div#overview {
+    border-style: solid;
+    border-color: #f0f000;
+    border-width: 1px;
+    padding-left: 0.5em;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#info {
+    border-style: solid;
+    border-color: #00f000;
+    border-width: 1px;
+    padding-left: 0.5em;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#current {
+    border-style: solid;
+    border-color: #80f000;
+    border-width: 1px;
+    padding-left: 0.5em;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#pagedescription {
+    border-style: solid;
+    border-color: #80f0f0;
+    border-width: 1px;
+    padding-left: 0.5em;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    padding-left: 2em;
+}
+
+li {
+    list-style-type: square;
+    margin: 5px;
+}
+
+dl {
+  padding-left: 2em;
+}
+
+dd {
+  margin: 10px;
+}
+img {
+    padding: 0.5em;
+}
+
+div#links {
+    border-style: solid;
+    border-color: #f0f000;
+    border-width: 1px;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#links h3 {
+    display: run-in;
+    font-family: monospace;
+}
+
+div#links li {
+    display: inline;
+    padding-left: 5%;
+}
+
+address {
+    clear: both;
+    width: 100%;
+    padding: 0.5em;
+}
+
+p {
+    margin-left: 1em;
+}
+
+p#comment {
+  font-size: 80%;
+}
+
+table {
+  margin: 5px;
+  border-style: solid;
+  border-width: 1px 2px 2px 1px
+}
+
+tbody {
+  font-size: 90%;
+}
+
+th
+{
+    padding: 5px;
+    border: 1px solid #666;
+    backgound-color: #9cc;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid #666;
+    background-color: white;
+}
+
+th.n {
+    counter-increment: num;
+}
+
+#th.n:before {
+#    counter-increment: num;
+#    content: counter(num);
+#}
+
+div.caution
+{
+    color: red;
+}
