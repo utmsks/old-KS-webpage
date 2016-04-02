@@ -40,7 +40,7 @@ div#left img {
     width: 98%;
 }
 
-div#overview {
+div.overview {
     border-style: solid;
     border-color: #f0f000;
     border-width: 1px;
@@ -60,7 +60,7 @@ div#info {
     margin-bottom: 10px;
 }
 
-div#current {
+div.current {
     border-style: solid;
     border-color: #80f000;
     border-width: 1px;
@@ -70,7 +70,7 @@ div#current {
     margin-bottom: 10px;
 }
 
-div#pagedescription {
+div.pagedescription {
     border-style: solid;
     border-color: #80f0f0;
     border-width: 1px;
