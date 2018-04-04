@@ -29,6 +29,11 @@ span#subtitle {
     margin-left: 1em;
 }
 
+span#warn{
+    font-size: 100%;
+    margin-left: 0em;
+    color: red;
+}
 
 div#left {
     width: 40%;
